@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "name": "ts-node",
+      "type": "node",
+      "request": "launch",
+      "program": "/Users/shiguangwei/.nvm/versions/node/v11.13.0/bin/ts-node",
+      "args": [
+        "${relativeFile}"
+      ],
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector"
+    }
+  ]
+}
