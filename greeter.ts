@@ -1,20 +1,20 @@
-enum Gender {
-  Man,
-  Woman
-}
-interface person {
-  age: number,
-  gender: Gender
-}
-function marry(a: person, b: person): [person, person] {
-  if(a.gender!==b.gender) {
-    return [a,b]
-  } else {
-    throw new Error('不能结婚')
-  }
-}
-var c = marry({gender: Gender.Man, age: 28}, {gender: Gender.Woman, age: 18})
-console.log(c)
+// enum Gender {
+//   Man,
+//   Woman
+// }
+// interface person {
+//   age: number,
+//   gender: Gender
+// }
+// function marry(a: person, b: person): [person, person] {
+//   if(a.gender!==b.gender) {
+//     return [a,b]
+//   } else {
+//     throw new Error('不能结婚')
+//   }
+// }
+// var c = marry({gender: Gender.Man, age: 28}, {gender: Gender.Woman, age: 18})
+// console.log(c)
 
 // function sorted(a: number[]):number[] {
 //   return a.sort((a, b) => b - a)
