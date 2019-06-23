@@ -9,6 +9,7 @@
       console.log('move')
     }
   }
+  
   class Human extends Animal {
     static color = 'red'
     public name: string
