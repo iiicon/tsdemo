@@ -16,10 +16,10 @@
 
   let s = returnIt<string>('hello')
 
-  let p = returnIt({ name: 'zhangsan', age: 18 })
+  let p = returnIt<Human>({ name: 'zhangsan', age: 18 })
 
   let arr = returnArray(['1', '2'])
-  console.log(s)
+  console.log(p)
 }
 
 {
